@@ -1,0 +1,21 @@
+/* -- Estilos para rutas erróneas -- */
+.not-found-container {
+    text-align: center;
+    padding: 50px;
+    color: #333;
+}
+  
+.not-found-container h1 {
+    color: red;
+    margin: 20px;
+}
+  
+.not-found-container p {
+    margin: 20px;
+}
+  
+.not-found-container a {
+    color: #0066cc;
+    text-decoration: none;
+}
+  

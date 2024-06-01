@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+p {
+  font-family: Caveat-VariableFont_wght;
+  font-size: 1.5em;
+}
+
+/* -- Fuentes -- */
+@font-face {
+  font-family: ConcertOne-Regular;
+  src: url("../public/fonts/ConcertOne-Regular.ttf");
+}
+
+@font-face {
+  font-family: Jersey15-Regular;
+  src: url("../public/fonts/Jersey15-Regular.ttf");
+}
+
+@font-face {
+  font-family: Caveat-VariableFont_wght;
+  src: url("../public/fonts/Jersey15-Regular.ttf");
+}
+
+@font-face {
+  font-family: Rye-Regular;
+  src: url("../public/fonts/Rye-Regular.ttf");
+}

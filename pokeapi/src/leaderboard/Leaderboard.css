@@ -1,0 +1,62 @@
+/* -- Estilos para la Tabla de puntuación -- */
+.leaderboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #333; 
+    color: #fff; 
+    font-family: Arial, sans-serif; 
+}
+
+.leaderboard-container h1 {
+    color: gold;
+    font-family: ConcertOne-Regular;
+}
+
+.leaderboard-list {
+    list-style-type: none; 
+    padding: 0;
+    width: 90%;
+    max-width: 600px;
+    background-color: #444; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(223, 213, 213, 0.2); 
+    padding: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: all ease-in 0.6s;
+}
+
+.leaderboard-list:hover {
+    color: teal;
+}
+
+.leaderboard-item {
+    padding: 10px;
+    border-bottom: 1px solid #555; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Jersey15-Regular;
+    font-size: 1.5em;
+}
+
+.leaderboard-item:last-child {
+    border-bottom: none; /* Eliminamos el borde del último ítem */
+}
+
+.leaderboard-item h2, .leaderboard-item p {
+    margin: 0; 
+}
+
+@media (max-width: 768px) {
+    .leaderboard-list {
+        width: 95%; 
+    }
+
+    .leaderboard-item {
+        font-size: 14px; 
+    }
+}

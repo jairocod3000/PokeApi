@@ -1,0 +1,71 @@
+/*-- Estilos para la sección de Pokemons --*/
+
+.list-container h1 {
+    text-align: center;
+    font-family: ConcertOne-Regular;
+    color: gold;
+    
+}
+
+.pokemon-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Ajusto para que sean 4 elementos por fila en pantallas grandes */
+    gap: 20px;
+    padding: 20px;
+}
+
+.pokemon-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: #f0f0f0;
+    text-decoration: none;
+    color: black;
+    transition: all 0.3s ease-in-out; 
+}
+
+.pokemon-item:hover {
+    background-color: #e0e0e0;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); 
+}
+
+.search-box {
+    margin: 20px;
+    text-align: center;
+}
+
+.search-box input {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.next-or-prev {
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+
+.next-or-prev button {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+@media (max-width: 1200px) {
+    .pokemon-list {
+        grid-template-columns: repeat(3, 1fr); /* 3 elementos por fila en pantallas medianas */
+    }
+}
+
+@media (max-width: 768px) {
+    .pokemon-list {
+        grid-template-columns: repeat(2, 1fr); /* 2 elementos por fila en pantallas pequeñas */
+    }
+}
+
+@media (max-width: 480px) {
+    .pokemon-list {
+        grid-template-columns: 1fr; /* 1 elemento por fila en pantallas muy pequeñas */
+    }
+}
