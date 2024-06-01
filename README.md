@@ -1,5 +1,5 @@
 # PokeApi
--Aplicación on-line sobre Pokemons haciendo uso de React tcomo Framework de desarrollo. https://pokeapi-2c8e1.web.app
+-Aplicación on-line sobre Pokemons haciendo uso de React como Framework de desarrollo. https://pokeapi-2c8e1.web.app
 
 # Getting Started with Create React App
 
